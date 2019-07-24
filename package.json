@@ -8,6 +8,14 @@
     "build": "webpack --config ./build/webpack.build.conf.js",
     "clean": "rimraf ./dist/*"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuedongwang/copyrightjs.git"
+  },
+  "homepage": "https://github.com/xuedongwang/copyrightjs#readme",
+  "bugs": {
+    "url": "https://github.com/xuedongwang/copyrightjs/issues"
+  },
   "keywords": [
     "clipboard",
     "copyright",
