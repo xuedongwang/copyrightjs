@@ -59,5 +59,8 @@ new Copyrightjs({
 </body>
 </html>
 ```
+## 联系我
+微信：V711400
+Email: npm@wangxuedong.com
 ## 协议
 MIT
