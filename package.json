@@ -1,6 +1,6 @@
 {
   "name": "copyrightjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add copyright information when pasting",
   "main": "dist/copyrightjs-0.0.2.min.js",
   "scripts": {
