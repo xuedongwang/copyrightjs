@@ -13,7 +13,7 @@ $ yarn add copyrightjs
 ```js
 import Copyrightjs from 'copyrightjs';
 
-new Copyrightjs({
+const copyright = new Copyrightjs({
   template: `
     作者：Xuedong Wang
     邮箱：npm@wangxuedong.com
@@ -21,13 +21,14 @@ new Copyrightjs({
     Github地址：https://github.com/xuedongwang/copyrightjs
   `
 });
-
+// 不想使用了
+copyright.destroyed();
 ```
 ### 2. Commonjs 使用
 ```js
 const Copyrightjs = require('copyrightjs');
 
-new Copyrightjs({
+const copyright = new Copyrightjs({
   template: `
     作者：Xuedong Wang
     邮箱：npm@wangxuedong.com
@@ -35,6 +36,8 @@ new Copyrightjs({
     Github地址：https://github.com/xuedongwang/copyrightjs
   `
 });
+// 不想使用了
+copyright.destroyed();
 ```
 ### 3. `<script>` 方式
 ```html
@@ -47,7 +50,7 @@ new Copyrightjs({
 <body>
   <script src="path/copyrightjs-0.0.1.js"></script>
   <script>
-    new Copyrightjs({
+    var copyright = new Copyrightjs({
       template: `
         作者：Xuedong Wang
         邮箱：npm@wangxuedong.com
@@ -55,6 +58,8 @@ new Copyrightjs({
         Github地址：https://github.com/xuedongwang/copyrightjs
       `
     });
+    // 不想使用了
+    copyright.destroyed();
   </script>
 </body>
 </html>
